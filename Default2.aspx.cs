@@ -11,7 +11,8 @@ using System.Configuration;
 public partial class Default2 : System.Web.UI.Page
 {
     //SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["con"].ConnectionString);
-    SqlConnection con = new SqlConnection(@"Data Source=USER-PC\SQLEXPRESS;Initial Catalog=Hello;Integrated Security=True");
+    //SqlConnection con = new SqlConnection(@"Data Source=USER-PC\SQLEXPRESS;Initial Catalog=Hello;Integrated Security=True");
+    SqlConnection con = new SqlConnection(@"Server=8c077aa3-4c9f-40fa-8653-a3b9012cf1a7.sqlserver.sequelizer.com;Database=db8c077aa34c9f40fa8653a3b9012cf1a7;User ID=nngqkiwdklvnsdob;Password=ZQBteW2YU5pWggSFWCMkMka3VGBdRLXFWQ8a5xmSLy3AfdatRsRoBwyPPGFDtWhi;");
     SqlCommand cmd;
     SqlDataAdapter da;
     DataTable dt;
